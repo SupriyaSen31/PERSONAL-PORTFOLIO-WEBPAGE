@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supriya Sen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+
+    <!-- ---------Header----------- -->
+    <nav class="container1">
+        <div class="logo">
+            <img src="Images/logo.png" alt="Logo">Portfolio
+        </div>
+        <ul class="items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Eduction</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#others">Others</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <!-- ---------About----------- -->
+    <section id="about" class="about-profile">
+        <h3>Hey! <br> I'M <span>Supriya Sen</span></h3><br>
+        <img src="Images/profile.jpg" alt="Supriya Profile">
+        <p class="information"><br>I am a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React. I love crafting beautiful and user-friendly web experiences. Apart from coding, I have a deep passion for dancing, which keeps me creative and energized! 💃✨</p><br>
+    </section>
+
+    <!-- ---------Education----------- -->
+    <section id="education" class="outer-sec">
+        <p class="field-name"><b><u>Education</u></b></p>
+        <p class="info">Completed B.Tech in Computer Science at PCST, Bhopal. Academic foundation in core computer science. Focused on programming and web development, leading to frontend specialization.</p>
+
+        <div class="institution-info">
+            <ul class="institutions">
+                <li class="institution-name">
+                    <img src="Images/clg.jpg" alt="College">
+                    <h3><a href="https://www.patelcollege.com/">Patel College of Science and Technology - [PCST],Bhopal</a></h3>
+                    <h4><a href="https://www.rgpv.ac.in/">Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, Madhya Pradesh</a></h4>
+                    <p>Bachelor of Technology - B.Tech, Computer Science and Engineering</p>
+                    <p>Grade: 7.54CGPA</p>
+                    <p>I am currently pursuing a Bachelor's degree in Computer Science and Engineering at RGPV, Bhopal. I have completed 8 semesters and have a CGPA of 7.51. Courses: DS, Algo, OOP, DBMS, OS, CN.</p>
+                </li>
+                <li class="institution-name">
+                    <img src="Images/school12.jpg" alt="School">
+                    <h3><a href="https://www.kopalgroup.com/kopal_school/kopalschool_index.php">Kopal Higher Secondary School, Bhopal</a></h3>
+                    <p>Class: 12th</p>
+                    <p>Subject: Maths</p>
+                    <p>Grade: 79%</p>
+                    <p>Completed Higher Secondary Education (Class 12), Kopal Higher Secondary School, Bhopal, Mathematics Stream.</p>
+                </li>
+                <li class="institution-name">
+                    <img src="Images/school10.jpg" alt="School">
+                    <h3><a href="https://nalandapublicschool.org/">Nalanda Public School, Bhopal</a></h3>
+                    <p>Class: 10th</p>
+                    <p>Grade: 78.6%</p>
+                    <p>Secondary education, specifically Class 10, was completed at Nalanda Public School, situated in Bhopal, with a final grade of 78.6%.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ---------Skills----------- -->
+    <section id="skills" class="outer-sec">
+        <p class="field-name"><b><u>Skills</u></b></p>
+        <p class="info">Experienced in HTML, CSS, JavaScript, and React. Proficient in building responsive web applications. Strong problem-solving skills, with knowledge of C/C++ and Git. Eager to learn new technologies.</p>
+
+        <div class="course-info">
+            <ul class="different-course">
+                <h2>Frontend</h2>
+                <li class="course-name">
+                    <img src="Images/html.png" alt="HTML Logo">HTML
+                </li>
+                <li class="course-name">
+                    <img src="Images/css.png" alt="CSS Logo">
+                    CSS
+                </li>
+                <li class="course-name">
+                    <img src="Images/js.png" alt="JavaScript Logo">
+                    JAVA SCRIPT
+                </li>
+                <li class="course-name">
+                    <img src="Images/react.svg" alt="React-Js Logo">
+                    React Js
+                </li>
+            </ul>
+
+            <ul class="different-course">
+                <h2>Others</h2>
+                <li class="course-name">
+                    <img src="Images/cLogo.png" alt="">C /
+                    <img src="Images/C++Logo.png" alt=""> C++
+                </li>
+                <li class="course-name">
+                    <img src="Images/git.png" alt="">
+                    git
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- ---------Contact----------- -->
+    <section id="contact" class="outer-sec">
+        <p class="field-name"><b><u>Contact</u> <u>Me</u></b></p>
+        <p class="info">Open to project discussions and collaborations. Feel free to connect!</p>
+        <div class="contact-information">
+            <form>
+                <input type="text" name="Name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ---------Copyright----------- -->
+    <section id="others" class="outer-sec">
+        <h1 class="name">Supriya Sen</h1>
+        <div class="other-contact">
+            <p>You can contact me...</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/supriya-sen-79078b284/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SupriyaSen31"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/sensupriya31"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <p class="copyright">Copyright © Supriya Sen
+            <i class="fa-solid fa-heart" style="color: #f2004d;"></i>. All rights reserved.
+        </p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
