@@ -36,5 +36,5 @@ The navbar includes a hamburger menu for better usability on mobile devices, enh
 
 *OUTPUT
 
-
+![Image](https://github.com/user-attachments/assets/96e075bf-1993-4d6b-a766-7a3847e02718)
 
